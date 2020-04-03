@@ -1,0 +1,29 @@
+
+func max( a) {
+	if(a<0) {
+		return a*2;
+	} else {
+		return a+20;
+	}
+}
+
+
+func main(a, b ) 
+{
+	a:=a;
+	b:=b;
+	if(a != 0) {
+		a:=max(a)-1+max(b);
+	} else {
+		a:=a+1;
+	}
+	if(b != 0) {
+		b:=b+4;
+	} else {
+		b:=b-1;
+		
+	}
+	assert (a == b);
+}
+
+

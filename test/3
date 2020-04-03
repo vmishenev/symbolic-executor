@@ -1,0 +1,25 @@
+func main() {
+	a := f434(8);
+	print(a);
+	assert(a == 55);
+}
+func f434(a) {
+	print(a);
+	if(a<3) {
+ 		a:=f434(a+1);
+ 		return a;
+ 	} else {
+ 		return 5;
+ 		
+ 	}
+ 	
+}
+func f3ds(x, y) {
+	if (y == 1) {
+		return x;
+	}
+	z := f(x + 1, y + 1);
+	assert(z == x);
+	return x;
+}
+

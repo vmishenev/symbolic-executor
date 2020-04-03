@@ -1,0 +1,25 @@
+func fact(x) {
+	if (x  <= 0) {
+		return 0;
+	} else {
+		r := x + fact(x-1);
+		print(x);
+		print(r);
+		print(8888888);
+		assert(x <= r);
+		return r;
+	}
+}
+
+func main(x) {
+	a := 0;
+	if (x == 2) {
+		a := fact(x);
+	} else {
+		a := 3;
+	}
+	print(9999999);
+	assert(a == 3);
+}
+
+

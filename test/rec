@@ -1,0 +1,20 @@
+func f(x, y) {
+	if (y == 2) {
+		return x;
+	} else {
+		z := f(x + 1, y + 1);
+		print(x);
+		print(z);
+		print(100500);
+		assert(z == x);
+		return x;
+	}
+}
+
+func main() {
+	a := f(0,0);
+	print(9999999);
+	print(a);
+	assert(a == 0);
+}
+
