@@ -1,7 +1,7 @@
 # Symbolic executor
 
 Example incorrect program:
-```
+```C
 func max(x, y) {
 
   dy = x-y+1
@@ -10,9 +10,8 @@ func max(x, y) {
   } else {
     r = x - dy +1
   }
-  assert(r = y)
+  assert(r == y)
 }
-
 ```
 
 The tool execute two query to SMT solver:
