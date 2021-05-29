@@ -5,6 +5,7 @@
 #include <cvc4/cvc4.h>
 #include "heading.h"
 #include "sygma.h"
+
 using namespace CVC4;
 
 // prototype of bison-generated parser function

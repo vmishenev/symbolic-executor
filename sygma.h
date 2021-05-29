@@ -63,7 +63,6 @@ struct crnt_state {
 	}
 	void reset_pos() {
 		pos_oper = 0;
-
 	}
 
 };
