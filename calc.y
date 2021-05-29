@@ -21,13 +21,13 @@
 %}
 
 %union{
-  int		int_val;
-  float         f_val;
-  std::string*	op_val ;
-   std::list<std::string> *largs;
-   std::list<expr_t*> *cargs;
-        oper_t* oper;
-        expr_t* expr;
+  int		          int_val;
+  float                   f_val;
+  std::string*	          op_val ;
+  std::list<std::string> *largs;
+  std::list<expr_t*>     *cargs;
+  oper_t* 	          oper;
+  expr_t*	          expr;
 
 }
 
