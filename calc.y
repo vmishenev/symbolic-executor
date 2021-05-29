@@ -1,4 +1,3 @@
-/* Mini Calculator */
 /* calc.y */
 
 %{
