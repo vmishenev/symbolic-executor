@@ -5,7 +5,7 @@ Example incorrect program:
 func max(x, y) {
 
   dy = x-y+1
-  if(dy==5) {
+  if(dy == 5) {
     r = 2*dy + 5
   } else {
     r = x - dy +1
