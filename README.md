@@ -3,10 +3,9 @@
 Example incorrect program:
 ```C
 func max(x, y) {
-
-  dy = x-y+1
+  dy = x - y + 1
   if(dy == 5) {
-    r = 2*dy + 5
+    r = 2 * dy + 5
   } else {
     r = x - dy +1
   }
@@ -31,5 +30,4 @@ Yod should install:
 * flex
 * bison
 * [cvc4](https://cvc4.github.io/)
-
 
